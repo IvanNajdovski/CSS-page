@@ -1,0 +1,124 @@
+.elements {
+  padding: 15rem 0;
+  background-size: cover;
+  &_pic1 {
+    background-image: url("../img/mobile1.jpeg");
+  }
+  &_pic2 {
+    background-image: url("../img/mobile2.jpeg");
+  }
+  &_pic3 {
+    background-image: url("../img/mac1.jpeg");
+  }
+  &_pic4 {
+    background-image: url("../img/mac2.jpeg");
+  }
+  &_pic5 {
+    background-image: url("../img/mac3.jpeg");
+  }
+  &_pic6 {
+    background-image: url("../img/mac4.jpeg");
+  }
+
+
+
+
+  left: 0%;
+    padding-top: 13rem;
+    width: 100%;
+    height: 100rem;
+  background-color: $color-gray-light-2;
+  position: relative;
+  text-align: center;
+  }
+.section_header{
+  position: absolute;
+  top: 10rem;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 3rem;
+  color: gray;
+}
+.section_text{
+
+  position: absolute;
+  top: 15rem;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 2rem;
+  color: gray;
+
+}
+.text-link{
+color: red;
+  text-decoration: none;
+}
+.row__elements{
+  top: 15rem;
+  position: relative;
+}
+
+
+.element_cont{
+
+  height: 25rem;
+  position:relative;
+  background-size: cover;
+  font-size: 1.5rem;
+  padding: 2.5rem;
+  text-align: center;
+  &__elements{
+    text-align: left;
+    left: 0;
+    padding: 1rem;
+    position: absolute;
+    bottom:0;
+    color: white;
+    width: 100%;
+    text-transform: uppercase;
+    font-size: 2rem;
+    display: block;
+    background-color: rgba( 0, 0,  0, 0.8);
+  }
+
+
+  &:hover &__elements{
+    background-color: #C84F4F;
+  }
+}
+.row__elements{
+  top: 0%;
+}
+.second {
+
+  &__link {
+    position: absolute;
+    top: 85%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: gray;
+    font-family: Arial;
+    font-size: 1.5rem;
+    text-align: center;
+    border: 2px solid gray;
+    padding: 2rem;
+    text-transform: uppercase;
+    display: block;
+    &:hover {
+      border: none;
+      display: block;
+
+      background-color: #C84F4F;
+    }
+    &:hover &-link{
+      color:white;
+    }
+
+  }
+  &__link-link {
+    display: block;
+    text-decoration: none;
+    color: gray;
+
+  }
+}

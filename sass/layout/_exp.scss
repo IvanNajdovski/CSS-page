@@ -1,0 +1,68 @@
+.black{
+  top:0.5rem;
+
+  height: 100%;
+  width: 100%;
+  background-color: white;
+  position: relative;
+  padding: 10rem 0;
+  background-size: cover;
+}
+.exp__elements{
+  margin-bottom: 2rem !important;
+}
+.row_text{
+  text-align: center;
+  color: gray;
+    &__p-small{
+      font-size: 1rem;
+      margin-bottom: 1rem;
+    }
+    &__h1{
+      margin-bottom: 1rem;
+    }
+    &__p-big{
+      margin-bottom: 2rem;
+    }
+    &__link{
+      color:red;
+      text-decoration: none;
+    }
+}
+.exp{
+  &__header{
+    position: absolute;
+    top: 2rem;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 4rem;
+    color: gray;
+  }
+  &__text{
+      position: absolute;
+    top: 7rem;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 2rem;
+    color: gray;
+
+
+  }
+  &_pic7 {
+    z-index: 10;
+    background-image: url("../img/mac5.jpg");
+    background-size: cover;
+  }
+  &_pic8 {
+    background-image: url("../img/mac6.jpg");
+  }
+  &_pic9 {
+    background-image: url("../img/mac7.jpg");
+  }
+
+}
+.row__elements-index{
+  z-index: 1;
+}
+
+

@@ -1,0 +1,151 @@
+.newsletter{
+  position:relative;
+  height: 100vh;
+  background-image: linear-gradient(
+                  to right bottom,
+                  rgba( 0, 0,  0, 0.7),
+                  rgba( 0, 0, 0, 0.7)),
+          url("../img/bglast.jpeg");
+  background-size: cover;
+  text-align: center;
+  &__header {
+    font-size: 3rem;
+    font-family: Calibri;
+    color: white;
+    text-transform: uppercase;
+    padding: 7rem;
+
+  }
+  &__row{
+    margin-top: 10rem;
+  }
+  &__icon{
+    margin:.4rem;
+    display: inline-block;
+    height: 3.5rem;
+    width: 3.5rem;
+    background-color: #C84F4F;
+    position: relative;
+    &-1{
+      top:.7rem;
+      left:.7rem;
+      position: absolute;
+
+      height: 100%;
+      width: 100%;
+
+      font-size: 2rem;
+
+
+      background-color: black;
+      -webkit-background-clip: text;
+      color: transparent;
+
+    }
+  }
+
+    &__prime{
+
+    }
+
+    &__box{
+      text-align: left !important;
+      padding: 1rem 0;
+      display: block;
+
+    }
+
+    &__box:not(:last-child){
+      border-bottom: 1px solid gray;
+
+    }
+
+    &_text{
+      &__h1{
+        text-align: left !important;
+        color:white;
+        font-family: Calibri;
+        font-size: 2.5rem;
+        margin:2rem 0;
+      }
+      &__h2{
+        color:#C84F4F;
+        font-size: 2rem;
+        padding: .5rem .5rem 0 0;
+      }
+      &__p-small{
+        padding:  .5rem  .5rem 0 0;
+        color: gray;
+        font-size: 1.3rem;
+      }
+      &__p-big{
+        padding: .5rem 1rem 0 0;
+        color: gray;
+      }
+    }
+
+}
+.form__input {
+  margin: 0 auto;
+  font-size: 1.5rem;
+  font-family: inherit;
+  color: inherit;
+  padding: 1rem 1rem;
+  border-radius: 2px;
+  background-color: rgba( 0, 0,  0, 0.7);
+  background-image: url("../img/arrow.png");
+  background-position: 100% 0;
+  background-repeat: no-repeat;
+  background-size: contain;
+  border: none;
+  border-bottom: 1px solid transparent;
+  width: 35%;
+  display: block;
+
+
+}
+.fas{
+  float: left;
+  font-size: 3rem;
+  margin-bottom: .5rem;
+  display: inline-block;
+  background-color: #fff;
+  -webkit-background-clip: text;
+  color: transparent;
+
+}
+#box1{
+  margin-bottom: 1rem;
+  border: none;
+}
+.far{
+  color: gray;
+  padding-right: 2rem;
+}
+.box_line{
+  display:  inline-block;
+  padding: 3;
+}
+.footer{
+  position: relative;
+  height: 7rem;
+  width: 100%;
+  background-color: black;
+  display: inline-block;
+
+  &__p1{
+     font-size: 1.4rem;
+     color: gray;
+     padding: 3rem 25%;
+    display: inline-block;
+
+   }
+  &__p2{
+    font-size: 1.4rem;
+    color: gray;
+    padding: 3rem 30%rem;
+    display: inline-block;
+
+  }
+}
+
